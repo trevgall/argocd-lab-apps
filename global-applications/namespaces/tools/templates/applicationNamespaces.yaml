@@ -1,0 +1,26 @@
+{{- $overiddenNamespaces := dict }}
+{{- range $project_index, $project := .Values.projects }}
+{{- range $application_index, $application := $project.applications }}
+{{- range $environment_index, $environment := $application.environments }}
+{{- if eq $environment.name "tools"}}
+{{- if and ($application.namespaceOverride) (not $application.dontCreateOverriddenNamespace) }}
+{{- $_ := set $overiddenNamespaces $application.namespaceOverride "dummy" }}
+{{- else }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ $project.name }}-{{ $application.name }}
+---
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- range $overiddenName, $dummyValue := $overiddenNamespaces }}
+# Overridden namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ $overiddenName }}
+---
+{{- end }}
