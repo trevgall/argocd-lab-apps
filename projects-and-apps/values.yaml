@@ -54,7 +54,7 @@ projects:
     - name: tools
 
 - name: "guestbook"
-  description: "ArgoCD example guestibook app"
+  description: "ArgoCD example guestbook app"
   applications:
   - name: "guestbook"
     pathPrefix: "guestbook"
