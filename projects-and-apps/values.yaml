@@ -44,15 +44,6 @@ projects:
     environments:
     - name: tools
 
-- name: "guestbook"
-  description: "ArgoCD example guestbook app"
-  applications:
-  - name: "guestbook"
-    pathPrefix: "guestbook"
-    repoURL: "https://github.com/trevgall/argocd-example-apps.git"
-    environments:
-    - name: minikube
-
 # - name: "infra"
 #   description: "Project for Shared Infrastructure Services"
 #   clusterResourceWhitelistOverrides:
@@ -97,3 +88,21 @@ projects:
 #     namespaceOverride: infra-kyverno
 #     environments:
 #     - name: tools
+
+- name: "guestbook"
+  description: "ArgoCD example guestbook app"
+  applications:
+  - name: "guestbook"
+    pathPrefix: "guestbook"
+    repoURL: "https://github.com/trevgall/argocd-example-apps.git"
+    environments:
+    - name: minikube
+
+  - name: "microservices-demo"
+    description: "Google Microservices Online Boutique"
+    applications: 
+    - name: "ads"
+      pathPrefix: "ads"
+      repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+      environments:
+      - name: minikube
