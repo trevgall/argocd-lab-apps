@@ -99,7 +99,7 @@ projects:
     - name: minikube
 
 - name: "microservices-demo"
-  description: "GooglnamespaceOverride:e Microservices Online Boutique"
+  description: "Google Microservices Online Boutique"
   applications: 
   - name: "ads"
     pathPrefix: "ads"
