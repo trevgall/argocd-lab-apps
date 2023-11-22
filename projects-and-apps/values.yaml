@@ -98,11 +98,11 @@ projects:
     environments:
     - name: minikube
 
-  - name: "microservices-demo"
-    description: "Google Microservices Online Boutique"
-    applications: 
-    - name: "ads"
-      pathPrefix: "ads"
-      repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-      environments:
-      - name: minikube
+- name: "microservices-demo"
+  description: "Google Microservices Online Boutique"
+  applications: 
+  - name: "ads"
+    pathPrefix: "ads"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    environments:
+    - name: minikube
