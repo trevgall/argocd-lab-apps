@@ -44,15 +44,6 @@ projects:
     environments:
     - name: tools
 
-- name: "argocd-ingress"
-  description: "Ingress for ArgoCD access"
-  applications: 
-  - name: "argocd-ingress"
-    pathPrefix: "argocd-ingress"
-    repoURL: "https://github.com/trevgall/argocd-lab-tools.git"
-    environments:
-    - name: tools
-
 - name: "guestbook"
   description: "ArgoCD example guestbook app"
   applications:
