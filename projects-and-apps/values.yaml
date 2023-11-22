@@ -98,12 +98,11 @@ projects:
     environments:
     - name: minikube
 
-- name: "microservices-demo"
+- name: "microservices"
   description: "Google Microservices Online Boutique"
   applications: 
   - name: "ads"
     pathPrefix: "ads"
     repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-    namespaceOverride: shop
     environments:
     - name: minikube
