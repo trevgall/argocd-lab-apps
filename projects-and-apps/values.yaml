@@ -105,5 +105,6 @@ projects:
   - name: "ads"
     pathPrefix: "ads"
     repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: microservices
     environments:
     - name: minikube
