@@ -98,14 +98,3 @@ projects:
     repoURL: "https://github.com/trevgall/argocd-example-apps.git"
     environments:
     - name: minikube
-
-- name: "microservices"
-  description: "Google Microservices Online Boutique"
-  namespaceOverride: "'*'"
-  applications: 
-  - name: "ads"
-    pathPrefix: "ads"
-    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-    namespaceOverride: microservices
-    environments:
-    - name: minikube
