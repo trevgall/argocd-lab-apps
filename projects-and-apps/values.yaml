@@ -102,7 +102,7 @@ projects:
 - name: "microservices"
   description: "Google Microservices Online Boutique"
   namespaceOverride: "'*'"
-  createNamespace: true
+  CreateNamespace: true
   applications: 
   - name: "ads"
     pathPrefix: "ads"
