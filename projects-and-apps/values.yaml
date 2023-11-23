@@ -181,3 +181,4 @@ projects:
     namespaceOverride: shop
     environments:
     - name: minikube
+    
