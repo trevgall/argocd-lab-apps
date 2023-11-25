@@ -109,76 +109,76 @@ projects:
     namespaceOverride: shop
     environments:
     - name: minikube
-  # - name: "cart"
-  #   pathPrefix: "cart"
+  - name: "cart"
+    pathPrefix: "cart"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "checkout"
+    pathPrefix: "checkout"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "currency"
+    pathPrefix: "currency"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "email"
+    pathPrefix: "email"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "frontend"
+    pathPrefix: "frontend"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "loadgenerator"
+    pathPrefix: "loadgenerator"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "payment"
+    pathPrefix: "payment"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "productcatalog"
+    pathPrefix: "productcatalog"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "recommendation"
+    pathPrefix: "recommendation"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  - name: "redis-cart"
+    pathPrefix: "redis-cart"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
+  # - name: "resiproxy"
+  #   pathPrefix: "resiproxy"
   #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
   #   namespaceOverride: shop
   #   environments:
   #   - name: minikube
-  # - name: "checkout"
-  #   pathPrefix: "checkout"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "currency"
-  #   pathPrefix: "currency"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "email"
-  #   pathPrefix: "email"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "frontend"
-  #   pathPrefix: "frontend"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "loadgenerator"
-  #   pathPrefix: "loadgenerator"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "payment"
-  #   pathPrefix: "payment"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "productcatalog"
-  #   pathPrefix: "productcatalog"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "recommendation"
-  #   pathPrefix: "recommendation"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # - name: "redis-cart"
-  #   pathPrefix: "redis-cart"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
-  # # - name: "resiproxy"
-  # #   pathPrefix: "resiproxy"
-  # #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  # #   namespaceOverride: shop
-  # #   environments:
-  # #   - name: minikube
-  # - name: "shipping"
-  #   pathPrefix: "shipping"
-  #   repoURL: "https://github.com/trevgall/google-microservices-demo.git"
-  #   namespaceOverride: shop
-  #   environments:
-  #   - name: minikube
+  - name: "shipping"
+    pathPrefix: "shipping"
+    repoURL: "https://github.com/trevgall/google-microservices-demo.git"
+    namespaceOverride: shop
+    environments:
+    - name: minikube
     
