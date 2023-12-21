@@ -194,6 +194,7 @@ projects:
 
 - name: "pyapp"
   description: "Example python system monitor app - gitlab ci/cd pipeline"
+  namespaceOverride: "'*'"
   applications:
   - name: "pyapp"
     pathPrefix: "deploy"
