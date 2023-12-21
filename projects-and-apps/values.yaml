@@ -197,7 +197,6 @@ projects:
   namespaceOverride: "'*'"
   applications:
   - name: "pyapp"
-    pathPrefix: "deploy"
     repoURL: "https://github.com/trevgall/demo-pyapp-deploy.git"
     namespaceOverride: pymon
     environments:
