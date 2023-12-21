@@ -188,6 +188,7 @@ projects:
   - name: "pyapp"
     pathPrefix: "deploy"
     repoURL: "https://gitlab.com/trevgall1/python-cicd.git"
+    namespaceOverride: pymon
     environments:
     - name: minikube
     
