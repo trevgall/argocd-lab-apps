@@ -182,7 +182,7 @@ projects:
     environments:
     - name: minikube
 
-- name: "pyapp"
+- name: "gitlab-cicd"
   description: "Example python system monitor app - gitlab ci/cd pipeline"
   namespaceOverride: "'*'"
   applications:
@@ -193,13 +193,4 @@ projects:
     environments:
     - name: minikube
 
-# - name: "pyapp"
-#   description: "Example python system monitor app - gitlab ci/cd pipeline"
-#   namespaceOverride: "'*'"
-#   applications:
-#   - name: "pyapp"
-#     repoURL: "https://github.com/trevgall/demo-pyapp-deploy.git"
-#     namespaceOverride: pymon
-#     environments:
-#     - name: minikube
     
